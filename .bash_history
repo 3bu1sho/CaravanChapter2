@@ -50,3 +50,12 @@ cd CARAVAN/
 rails s
 cd
 git init
+git add .
+git commit -m ‘message’
+git status
+git push
+git push -f
+git add
+git add .
+git commit -a
+git push
