@@ -1,0 +1,100 @@
+2020-11-06 20:22:45 +0000
+
+/home/linuxbrew/.linuxbrew/Cellar/python@3.8/3.8.6_1/bin/python3
+-s
+setup.py
+--no-user-cfg
+install
+--force
+--verbose
+--install-scripts=/home/linuxbrew/.linuxbrew/Cellar/python@3.8/3.8.6_1/bin
+--install-lib=/home/linuxbrew/.linuxbrew/lib/python3.8/site-packages
+--single-version-externally-managed
+--record=installed.txt
+
+running install
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/wheel
+copying src/wheel/bdist_wheel.py -> build/lib/wheel
+copying src/wheel/__init__.py -> build/lib/wheel
+copying src/wheel/pkginfo.py -> build/lib/wheel
+copying src/wheel/wheelfile.py -> build/lib/wheel
+copying src/wheel/util.py -> build/lib/wheel
+copying src/wheel/metadata.py -> build/lib/wheel
+copying src/wheel/macosx_libfile.py -> build/lib/wheel
+copying src/wheel/__main__.py -> build/lib/wheel
+creating build/lib/wheel/vendored
+copying src/wheel/vendored/__init__.py -> build/lib/wheel/vendored
+creating build/lib/wheel/cli
+copying src/wheel/cli/__init__.py -> build/lib/wheel/cli
+copying src/wheel/cli/unpack.py -> build/lib/wheel/cli
+copying src/wheel/cli/pack.py -> build/lib/wheel/cli
+copying src/wheel/cli/convert.py -> build/lib/wheel/cli
+creating build/lib/wheel/vendored/packaging
+copying src/wheel/vendored/packaging/_typing.py -> build/lib/wheel/vendored/packaging
+copying src/wheel/vendored/packaging/__init__.py -> build/lib/wheel/vendored/packaging
+copying src/wheel/vendored/packaging/tags.py -> build/lib/wheel/vendored/packaging
+running install_lib
+creating /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel
+copying build/lib/wheel/bdist_wheel.py -> /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel
+creating /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel/vendored
+copying build/lib/wheel/vendored/__init__.py -> /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel/vendored
+creating /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel/vendored/packaging
+copying build/lib/wheel/vendored/packaging/_typing.py -> /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel/vendored/packaging
+copying build/lib/wheel/vendored/packaging/__init__.py -> /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel/vendored/packaging
+copying build/lib/wheel/vendored/packaging/tags.py -> /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel/vendored/packaging
+copying build/lib/wheel/__init__.py -> /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel
+copying build/lib/wheel/pkginfo.py -> /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel
+creating /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel/cli
+copying build/lib/wheel/cli/__init__.py -> /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel/cli
+copying build/lib/wheel/cli/unpack.py -> /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel/cli
+copying build/lib/wheel/cli/pack.py -> /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel/cli
+copying build/lib/wheel/cli/convert.py -> /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel/cli
+copying build/lib/wheel/wheelfile.py -> /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel
+copying build/lib/wheel/util.py -> /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel
+copying build/lib/wheel/metadata.py -> /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel
+copying build/lib/wheel/macosx_libfile.py -> /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel
+copying build/lib/wheel/__main__.py -> /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel
+byte-compiling /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel/bdist_wheel.py to bdist_wheel.cpython-38.pyc
+byte-compiling /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel/vendored/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel/vendored/packaging/_typing.py to _typing.cpython-38.pyc
+byte-compiling /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel/vendored/packaging/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel/vendored/packaging/tags.py to tags.cpython-38.pyc
+byte-compiling /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel/pkginfo.py to pkginfo.cpython-38.pyc
+byte-compiling /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel/cli/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel/cli/unpack.py to unpack.cpython-38.pyc
+byte-compiling /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel/cli/pack.py to pack.cpython-38.pyc
+byte-compiling /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel/cli/convert.py to convert.cpython-38.pyc
+byte-compiling /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel/wheelfile.py to wheelfile.cpython-38.pyc
+byte-compiling /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel/util.py to util.cpython-38.pyc
+byte-compiling /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel/metadata.py to metadata.cpython-38.pyc
+byte-compiling /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel/macosx_libfile.py to macosx_libfile.cpython-38.pyc
+byte-compiling /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel/__main__.py to __main__.cpython-38.pyc
+running install_egg_info
+running egg_info
+writing src/wheel.egg-info/PKG-INFO
+writing dependency_links to src/wheel.egg-info/dependency_links.txt
+writing entry points to src/wheel.egg-info/entry_points.txt
+writing requirements to src/wheel.egg-info/requires.txt
+writing top-level names to src/wheel.egg-info/top_level.txt
+reading manifest file 'src/wheel.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*.py' under directory 'tests'
+warning: no files found matching '*.h' under directory 'tests'
+warning: no files found matching '*.txt' under directory 'tests'
+warning: no files found matching '*.c' under directory 'tests'
+warning: no files found matching '*.dynlib' under directory 'tests'
+warning: no files found matching 'tests/testdata/test-1.0-py2.py3-none-any.whl'
+warning: no files found matching 'tox.ini'
+no previously-included directories found matching 'tests/testdata/*/build'
+no previously-included directories found matching 'tests/testdata/*/dist'
+no previously-included directories found matching 'tests/testdata/*/*.egg-info'
+writing manifest file 'src/wheel.egg-info/SOURCES.txt'
+Copying src/wheel.egg-info to /home/linuxbrew/.linuxbrew/lib/python3.8/site-packages/wheel-0.35.1-py3.8.egg-info
+running install_scripts
+Installing wheel script to /home/linuxbrew/.linuxbrew/Cellar/python@3.8/3.8.6_1/bin
+writing list of installed files to 'installed.txt'

@@ -1,0 +1,8 @@
+[credential]
+	helper = !aws codecommit credential-helper $@
+	UseHttpPath = true
+[core]
+	editor = /usr/bin/nano
+[user]
+	name = 3bu1sho
+	email = 3bu1sho@gmail.com
