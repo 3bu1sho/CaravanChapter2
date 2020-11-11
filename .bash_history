@@ -59,3 +59,6 @@ git add
 git add .
 git commit -a
 git push
+git commit -a
+git push
+git init
